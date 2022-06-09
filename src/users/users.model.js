@@ -1,9 +1,9 @@
 import { MongoClient } from 'mongodb';
 
 
-const URI = 'mongodb+srv://demo_bootcamp:demo_bootcamp@learning.c7hty.mongodb.net/?retryWrites=true&w=majority';  //esta URL ponerla en index.js o  era app?
+const URI = 'mongodb+srv://JCJetz:hB4bStJknmz6LrL@cluster0.tsuyqql.mongodb.net/?retryWrites=true&w=majority';  //esta URL ponerla en index.js o  era app?
 const client = new MongoClient(URI);
-const DATABASE_NAME = 'my-auth-project';
+const DATABASE_NAME = 'auth';
 const COLLECTION_NAME = 'users';
 
 export const createUser = async (user) => {
